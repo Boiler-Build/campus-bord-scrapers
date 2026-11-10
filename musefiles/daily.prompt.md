@@ -4,17 +4,67 @@ Get events happening on campus for Purdue in Indianapolis and send them to an ap
 
 # Pages to search
 
-- @purdue_usbindy
+
+- @purdueindy — main campus
+- @psub_indy — PSUB
+- @cco_purdueindy
+- @purduehonors_indy
+
+CS / tech
+
 - @csclub_purdueindy
-- @purdueindymsa
 - @cswn.indy
-- @psub_indy
-- @purdue_pi.med
+- @purdue_usbindy
+- @purdue_indy_ecess
+- @purdue_indy_builds
+- @purdue.mit
+- @wicys_purdueindy
+- @pui.swe
+- @colorstackpurdueindy
+- @purdueappliedcreativecomputing
+- @hackindy — 0 posts as of Oct 19
+- @amplifypurdue
+- @purdue_startup_indy
+- @buildpurdue
+
+Engineering / science / robotics
+
+- @pui_asme
+- @bioforge_purdue / @bmespurdue
+- @boilersub
+- @boilergp — dormant as of Oct 19
+- @pindyrobotics
 - @purdue_roboracer
-- @thecsoffice
-- @pmcindianapolis
-- @purdue_tkd_indy
+- @src.purdue
+- @purduefirst_indy
+- @pesc_indy
+- @purduemotorsportsengineering
+
+Culture / identity / professional
+
+- @hispanosunidos_pui
+- @pui.nsbe
+- @shpe_pui
+- @purdueindymsa
+- @lcmsu_purdue_indianapolis
+- @ppaindy
+
+Arts / life / sports
+
+- @steam_pui
 - @purduemixedmedia
+- @pmcindianapolis
+- @pcc_pin
+- @sdo.purdueindy
+- @purdueindybadminton
+- @purdueindychess
+- @indyclimbingclub
+- @mensclubvb_at_purdue_indy
+- @purdue_tkd_indy
+- @boilerleagueindy
+- @purdueskiclub
+- @purdue_pi.med
+
 
 # The api
 
@@ -114,9 +164,14 @@ Below is a list of tags and buildings you may use for the event json request.
 ```
 
 # Criteria
+Look for events that are happening in Purdue Indianapolis, not West Lafayette. 
 
-TODO: list criteria for things that we MUST have.
+Look for several events that are happening in the next 7 days. Don't include any events that have already happened. 
 
-# Exceptions
+If there is no start time for the event, do not include it. If no end time is listed, assume 1 hour.
 
-#TODO: list any edge cases such as duplicate events or no images.
+Only include an image that holds information about the event. If the image is just a picture of a person or a group of people, do not include it. If the image is a poster for the event, include it. 
+
+When adding tags, you may add anywhere from 0 to 3. Try to add as many as possible, but if there are no more relevant tags, do not add any more.
+
+Keep a list of all the instagram pages you scraped from. Store this list in your memory.md. If there is a duplicate instagram page, don't add it again.
