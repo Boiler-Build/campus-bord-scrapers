@@ -5,7 +5,6 @@ Get events happening on campus for Purdue in Indianapolis and send them to an ap
 # Pages to search
 
 
-- @purdueindy — main campus
 - @psub_indy — PSUB
 - @cco_purdueindy
 - @purduehonors_indy
@@ -22,7 +21,7 @@ CS / tech
 - @pui.swe
 - @colorstackpurdueindy
 - @purdueappliedcreativecomputing
-- @hackindy — 0 posts as of Oct 19
+- @hackindy
 - @amplifypurdue
 - @purdue_startup_indy
 - @buildpurdue
@@ -32,7 +31,7 @@ Engineering / science / robotics
 - @pui_asme
 - @bioforge_purdue / @bmespurdue
 - @boilersub
-- @boilergp — dormant as of Oct 19
+- @boilergp
 - @pindyrobotics
 - @purdue_roboracer
 - @src.purdue
@@ -62,7 +61,6 @@ Arts / life / sports
 - @mensclubvb_at_purdue_indy
 - @purdue_tkd_indy
 - @boilerleagueindy
-- @purdueskiclub
 - @purdue_pi.med
 
 
