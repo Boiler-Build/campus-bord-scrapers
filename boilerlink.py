@@ -282,7 +282,7 @@ def formatEvents(events):
     del event["perks"]
 
     #default image
-    if "campuslabsengage" in event["image"]:
+    if "campuslabsengage" in event.get("image", ""):
       if event["org"] in orgToImg:
         event["image"] = orgToImg[event["org"]]
       else:
@@ -290,7 +290,7 @@ def formatEvents(events):
 
     if "image" in event:
     #not default image
-      req = requests.get(event['image'])
+      req = requests.get(event['image'], headers=req_headers)
 
       try: 
         img = Image.open(io.BytesIO(req.content)).convert("RGB")
