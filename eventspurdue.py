@@ -188,7 +188,7 @@ def parseEvents():
       "desc": desc,
       "startTime": start,
       "endTime": end,
-      "email": "scraper@scraper.com",
+      "email": "purdueeventsscraper@scraper.com",
       "categories": sorted(categories),
       "perks": [],
     }
