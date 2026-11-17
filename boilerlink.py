@@ -282,7 +282,7 @@ def formatEvents(events):
     del event["perks"]
 
     #default image
-    if "campuslabsengage" in event["image"]:
+    if "campuslabsengage" in event.get("image", ""):
       if event["org"] in orgToImg:
         event["image"] = orgToImg[event["org"]]
       else:
