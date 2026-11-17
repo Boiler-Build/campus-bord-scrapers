@@ -33,7 +33,8 @@ DAYS_TO_SEARCH = 7
 PAGE_SIZE = 100                 # Localist max is 100
 MAX_PAGES = 20                  # safety cap
 REQUEST_DELAY = 1               # seconds between API pages
-DRY_RUN = True                  # True = scrape + write events.json only, no POST
+DRY_RUN = False                  # True = scrape + write events.json only, no POST 
+# FALSE means post to events.json
 
 SKIP_TITLES_WITH = ["practice", "rehearsal"]
 SKIP_ALL_DAY = True             # all-day listings are mostly deadlines/holidays ("Winter Recess")
